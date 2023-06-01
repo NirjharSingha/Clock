@@ -1,0 +1,36 @@
+#clock {
+  width: 40vw;
+  height: 40vw;
+  background: url("clock.webp");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: auto;
+  position: relative;
+  margin-top: 5%;
+}
+#hour,
+#min,
+#sec {
+  background-color: rgb(105, 102, 102);
+  position: absolute;
+  border-radius: 5px;
+  transform-origin: bottom;
+}
+#hour {
+  height: 4vw;
+  width: 0.5vw;
+  top: 22.8%;
+  left: 47.3%;
+}
+#min {
+  height: 5.5vw;
+  width: 0.4vw;
+  top: 18.9%;
+  left: 47.3%;
+}
+#sec {
+  height: 6.4vw;
+  width: 0.31vw;
+  top: 16.93%;
+  left: 47.25%;
+}
